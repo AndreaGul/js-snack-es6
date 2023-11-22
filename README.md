@@ -7,13 +7,15 @@ Ci creaiamo un array bici con al sui interno degli oggetti che avranno le propri
 
 utiliziamo un for each per andarci a prendere tutti i valori degli oggetti
 
-destreutturando l'array di oggetti ci prendiuamo solo i valori con key peso
+destrutturando l'array di oggetti ci prendiuamo solo i valori con key peso
 
 con una condizione verifichiamo qual e' la bici che pesa dimeno
 
+ci andiamo a salvare la posizione dell'array della bici piu' leggera
+
 Definiamo una variabile minPeso che avra come valore il peso della prima bici e con un altro confronto, andiamo a verificare se il peso della bici a seguire e' piu piccolo della varibile minPeso sostiuiamo il valore di minPeso con quella della bici corrente
 
-E con il template literal andiamo ad inserire nel dom i pesi delle bici
+E con il template literal andiamo ad inserire nel dom ci andiamo a inserire il nome e il peso della bici piu' leggera
 
 Snack 2
 Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
