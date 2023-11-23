@@ -38,9 +38,9 @@ function numRandom() {
 
 // Per modificare il valore nelle key degli oggetti posso usare un foreach per attaversare tutto l'array e assegnare alle proprieta Punti fatti e falli subiti un numero random
 
-squadre.forEach((element, index) => {
-  squadre[index]['punti fatti'] = numRandom();
-  squadre[index]['falli subiti'] = numRandom();
+squadre.forEach((element) => {
+  element['punti fatti'] = numRandom();
+  element['falli subiti'] = numRandom();
 });
 console.log(
   'Array di oggetti con con numeri di punti fatti e falli subiti',
